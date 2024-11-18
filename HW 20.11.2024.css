@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstPart{
+    background-color: aqua;
+}
+
+.OtherRadio{
+    accent-color: red;
+}
+
+.SubmitButton{
+    padding: 7px;
+    border-radius: 15px;
+    color: white;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.SecondPart{
+    background-color: bisque;
+}
+
+button{
+    padding: 3px;
+    margin: 5px;
+    background-color: green;
+    border: 0.5px solid black;
+}\
