@@ -1,0 +1,13 @@
+.SectionCl {
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.imagesss{
+    height: 30%;
+    width: 30%;
+    justify-content: center;
+  }
