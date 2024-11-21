@@ -1,0 +1,76 @@
+.SectionCl {
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .SectionCl input {
+    outline-color: blue;
+    outline-width: 1px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(131, 125, 125);
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .FirstForm {
+    /* border: 2px solid black; */
+    height: 100%;
+  }
+  
+  .FirstForm .NamePhoneAddress {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .FirstForm .NamePhoneAddress input {
+    width: 400px;
+  }
+  
+  .DateTime {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    gap: 10px;
+  }
+  
+  .DateTime input {
+    width: 175px;
+  }
+  
+  /* .DateTime .DateClass{
+  
+  }
+  
+  .DateTime .TimeClass{
+  
+  } */
+  
+  .AreaStateCityCode {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .AreaStateCityCode .AreaState {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .AreaStateCityCode .CityCode {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .ButtonClass {
+    padding: 5px;
+    margin: 5px;
+    width: 450px;
+    background-color: #6a64f1;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+  }
+  
