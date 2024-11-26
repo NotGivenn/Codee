@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./second hw.css">
+</head>
+
+<body>
+    <div class="FirstPart" id="FirPart">
+    <form action="">
+    <h2 style="text-align: center;">Register Form</h2>
+    <br>
+    <label for="UserName" style="color: blue">First Name:</label><br>
+    <input type="text" placeholder="Enter a name..." id="UserName">
+    <br><br>
+    <label for="" style="color: green">Last Name:</label><br>
+    <input type="text" placeholder="Enter a surname...">
+    <br><br>
+    <label for="" style="color: darkblue">Email:</label><br>
+    <input type="email" placeholder="Enter an email...">
+    <br><br>
+    <label for="" style="color: rgb(255, 153, 0)">Password:</label><br>
+    <input type="password" placeholder="Enter a password" required minlength="4" maxlength="25">
+    <br><br>
+    <input type="checkbox" name="" id="" required>
+    <label for="">Accept all requiments</label>
+    <br><br>
+
+    
+    <input type="radio" name="WhoAreYou" style="accent-color: red">
+    <label for="">Teacher</label>
+    
+    <input type="radio" name="WhoAreYou" style="accent-color: red">
+    <label for="">Student</label>
+    
+    <input type="radio" name="WhoAreYou" class="OtherRadio">
+    <label for="">Other</label>
+    
+    <br><br>
+
+    <input type="submit" value="Sign In" class="SubmitButton">
+
+    <br><br>
+    <span>Register maybe late: </span>
+    <a href="#SecPart">Skip</a>
+
+    </form>
+    </div>
+
+    <div class="SecondPart" id="SecPart">
+        <form action="">
+            <h2>User Info</h2>
+            <br>
+            <p>Who are u?</p>
+            <textarea name="" id=""></textarea>
+            <br><br>
+            <input type="file" name="" id="">
+            <br><br>
+            <label for="" style="color: blueviolet;">Choose data:</label>
+            <input type="date" name="" id="">
+            <br><br>
+            <label for="">Age: </label>
+            <input type="number" name="" id="" min="12" max="120">
+            <br><br>
+            <button>Save</button>
+            <br><br>
+            <span>Maybe later): </span>
+            <a href="#ThrPart">Skip</a>
+            <br><br>
+            <span>Go back and sign in: </span>
+            <a href="#FirPart">Sign In</a>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
