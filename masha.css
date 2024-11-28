@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-content: space-between; */
+}
+
+.allclass{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+.firstim{
+    background-image: url("masha1.jpg");
+}
+
+.secondim{
+    background-image: url("masha2.jpg");
+    align-self: flex-end;
+}
+
+.thirdim{
+    background-image: url("masha3.jpg");
+}
+
