@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #sectionn {
+    background-color: black;
+    padding: 30px 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 90;
+  }
+  
+  .container {
+    padding: 0 60px;
+  }
+  
+  .container .header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container .header nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .container .header nav ul li a:hover {
+    color: black;
+    background-color: white;
+    padding: 9px 9px;
+    border-radius: 4px;
+  }
+  
+  .container .header .burger {
+    display: none;
+  }
+  
+  .firstPage {
+    display: flex;
+    height: 100vh;
+    background-image: url("./ledi-bag-i-super-kot-krasivie-kartinki-30.jpg");
+    background-size: cover;
+    position: relative;
+    top: 75px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .firstPage .text {
+    width: 50%;
+  }
+  
+  .secondPage {
+    height: 100vh;
+    background-image: url("./ledi-bag-i-super-kot-krasivie-kartinki-26.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .thirdPage {
+    height: 100vh;
+    border: 3px solid yellow;
+    /* padding: 40px; */
+    margin: 30px;
+    position: relative;
+  }
+  
+  .thirdPage .box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+  }
+  
+  .thirdPage .box1 {
+    background-color: #a52a2a;
+    top: 40%;
+    right: 45%;
+    z-index: 7;
+  }
+  
+  .thirdPage .box2 {
+    background-color: #808080;
+    top: 40%;
+    right: 65%;
+    z-index: 4;
+  }
+  
+  .thirdPage .box3 {
+    background-color: #00008b;
+    top: 58%;
+    right: 55%;
+    z-index: 6;
+  }
+  
+  .thirdPage .box4 {
+    background-color: #ffe4c4;
+    top: 65%;
+    right: 40%;
+    z-index: 5;
+  }
+  
+  .thirdPage .box5 {
+    background-color: #008000;
+    top: 45%;
+    right: 30%;
+    z-index: 3;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .container .header .burger {
+      display: block;
+    }
+    .container .header nav ul li {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .thirdPage .box {
+      position: static;
+    }
+    .thirdPage {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
